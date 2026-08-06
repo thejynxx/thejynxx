@@ -1,17 +1,23 @@
-### Hi there 👋
+# ⚡ JYNXX
 
-<!--
-**thejynxx/thejynxx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> *Engineering high-performance systems, intelligent models, and clean full-stack architecture.*
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-jynxx
+### 💻 Tech Stack
+
+- **Languages:** Python, C, C++, Java, Assembly (8051/8086), JavaScript/TypeScript
+- **Full-Stack & Cloud:** React, Next.js, Tailwind CSS, Supabase, Firebase, AWS
+- **Core Focus:** Artificial Intelligence, Machine Learning, Systems & Low-Level Programming
+
+---
+
+### 🚀 Highlights
+
+- 🤖 **AI/ML:** Developing deep learning & computer vision architectures
+- 🛠️ **Systems & Hardware:** Embedded assembly programming & custom compiler design
+- 🎮 **Beyond Tech:** Competitive gaming, chess, and anime-inspired UI design
+
+---
+
+📫 **Connect with me:** `[Your Email]` | `[Your LinkedIn]` | `[Your Portfolio]`
