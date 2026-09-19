@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9ff&height=220&section=header&text=JYNXX&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Engineering%20AI,%20Systems%20%26%20Full-Stack%20Architecture&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9ff&height=220&section=header&text=JYNXX&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20%26%20Engineering%20%7C%20AI%20%26%20Systems%20Architecture&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="https://www.linkedin.com/in/anurag-ghosh-605a832a3/">
   <img src="https://img.shields.io/badge/LinkedIn-Anurag%20Ghosh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -10,7 +10,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00C9FF&center=true&vCenter=true&width=650&lines=Building+intelligent%2C+high-performance+systems;AI+%2F+ML+%7C+Computer+Vision+%7C+Low-Level+Programming;Full-Stack+Dev+%7C+React+%2F+Next.js+%2F+Cloud;Competitive+Gamer+%7C+Chess+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00C9FF&center=true&vCenter=true&width=750&lines=Computer+Science+Engineer+%26+Systems+Architect;AI+%26+Machine+Learning+%7C+Computer+Vision+Pipelines;Low-Level+Programming+%7C+Compilers+%7C+Embedded;Scalable+Full-Stack+%26+Cloud-Native+Applications;Algorithmic+Problem+Solving+%26+Optimization" alt="Typing SVG" />
 
 </div>
 
@@ -20,11 +20,12 @@
 
 <img align="right" src="https://github-readme-activity-graph.vercel.app/graph?username=thejynxx&theme=react-dark&hide_border=true&area=true&color=00c9ff&line=2c5364&point=ffffff" width="380"/>
 
-- 🤖 Developing **deep learning & computer vision** architectures
-- 🛠️ **Systems & Hardware:** embedded assembly (8051/8086) & custom compiler design
-- 🌐 Building clean, scalable **full-stack** products end-to-end
-- 🎮 Beyond tech: competitive gaming, chess, and anime-inspired UI design
-- 📈 Always shipping — check the contribution graph on the right
+- 🎓 **Computer Science & Engineering** enthusiast focused on scalable systems, AI, and core computing.
+- 🤖 **AI & Computer Vision:** Designing neural models, deep learning pipelines, and vision architectures.
+- 🛠️ **Systems & Compilers:** Low-level programming, embedded systems (x86/8051), and compiler design.
+- 🌐 **Software Engineering:** Building high-performance, resilient full-stack applications and cloud services.
+- 💡 **Core CS Principles:** Algorithm optimization, operating systems, concurrency, and clean architecture.
+- 🚀 **Continuous Shipping:** Actively architecting and deploying open-source projects.
 
 <br clear="right"/>
 
