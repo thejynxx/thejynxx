@@ -17,8 +17,6 @@
 
 <img src="./assets/about-terminal.svg" width="100%" alt="whoami — AI & computer vision, systems & compilers, full-stack & cloud, core CS"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=thejynxx&bg_color=070b14&color=c9d6e2&line=00c9ff&point=ff2e88&area=true&area_color=00c9ff&title_color=00c9ff&hide_border=true&radius=14&custom_title=commit%20signal%20%E2%80%94%20last%2031%20days" width="100%" alt="Contribution activity graph"/>
-
 <br/>
 
 <img src="./assets/h-stack.svg" width="100%" alt="02 // Tech Stack"/>
@@ -47,7 +45,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=thejynxx&show_icons=true&hide_border=true&border_radius=14&bg_color=070b14&title_color=00c9ff&icon_color=ff2e88&text_color=c9d6e2&ring_color=00c9ff&count_private=true&include_all_commits=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=thejynxx&show_icons=true&hide_border=true&border_radius=14&bg_color=070b14&title_color=00c9ff&icon_color=ff2e88&text_color=c9d6e2&ring_color=00c9ff" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thejynxx&layout=compact&hide_border=true&border_radius=14&bg_color=070b14&title_color=00c9ff&text_color=c9d6e2&langs_count=8" height="170"/>
 
 <img src="https://streak-stats.demolab.com/?user=thejynxx&hide_border=true&border_radius=14&background=070b14&ring=00c9ff&fire=ff2e88&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00c9ff&sideLabels=c9d6e2&dates=6b8ba3&stroke=1b2a3d" width="72%"/>
