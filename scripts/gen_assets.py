@@ -497,11 +497,9 @@ if __name__ == "__main__":
         ("stack", "02", "TECH STACK", "tools of the trade"),
         ("stats", "03", "TELEMETRY", "live from github"),
         ("achievements", "04", "ACHIEVEMENTS", "milestones unlocked"),
-        ("trophies", "05", "TROPHIES", "achievement.log"),
-        ("snake", "06", "CONTRIBUTIONS", "the snake eats my commits"),
-        ("connect", "07", "CONNECT", "open a channel"),
+        ("snake", "05", "CONTRIBUTIONS", "the snake eats my commits"),
     ]:
         header(*args)
-    trophies()
     footer()
+
 

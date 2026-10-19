@@ -23,19 +23,9 @@
 
 <div align="center">
 
-<sub><b><code>LANGUAGES</code></b></sub><br/><br/>
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,ts,js&theme=dark" height="52"/>
-<br/><sub><code>+ x86 / 8051 Assembly</code></sub>
-
+<img src="https://skillicons.dev/icons?i=python,c,cpp,java,ts,js,react,nextjs,tailwind,supabase,firebase,aws,pytorch,tensorflow,opencv,git,linux&theme=dark" height="52"/>
 <br/><br/>
-
-<sub><b><code>FULL-STACK &amp; CLOUD</code></b></sub><br/><br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,supabase,firebase,aws&theme=dark" height="52"/>
-
-<br/><br/>
-
-<sub><b><code>AI / ML &amp; TOOLING</code></b></sub><br/><br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,git,linux&theme=dark" height="52"/>
+<sub><code>+ x86 / 8051 Assembly</code></sub>
 
 </div>
 
@@ -45,7 +35,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=thejynxx&show_icons=true&hide_border=true&border_radius=14&bg_color=070b14&title_color=00c9ff&icon_color=ff2e88&text_color=c9d6e2&ring_color=00c9ff" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=thejynxx&show_icons=true&hide_border=true&border_radius=14&bg_color=070b14&title_color=00c9ff&icon_color=ff2e88&text_color=c9d6e2&ring_color=00c9ff&hide_rank=true" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thejynxx&layout=compact&hide_border=true&border_radius=14&bg_color=070b14&title_color=00c9ff&text_color=c9d6e2&langs_count=8" height="170"/>
 
 <img src="https://streak-stats.demolab.com/?user=thejynxx&hide_border=true&border_radius=14&background=070b14&ring=00c9ff&fire=ff2e88&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00c9ff&sideLabels=c9d6e2&dates=6b8ba3&stroke=1b2a3d" width="72%"/>
@@ -73,15 +63,7 @@
 
 <br/>
 
-<img src="./assets/h-trophies.svg" width="100%" alt="05 // Trophies"/>
-
-<div align="center">
-<img src="./assets/trophies.svg" width="100%" alt="Cyberpunk Profile Trophies — Commits, Polyglot, Repositories, Systems &amp; AI, Pull Shark, Telemetry"/>
-</div>
-
-<br/>
-
-<img src="./assets/h-snake.svg" width="100%" alt="06 // Contributions"/>
+<img src="./assets/h-snake.svg" width="100%" alt="05 // Contributions"/>
 
 <div align="center">
 <picture>
@@ -89,17 +71,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thejynxx/thejynxx/output/github-contribution-grid-snake.svg"/>
   <img src="https://raw.githubusercontent.com/thejynxx/thejynxx/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake"/>
 </picture>
-</div>
-
-<br/>
-
-<img src="./assets/h-connect.svg" width="100%" alt="07 // Connect"/>
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/anurag-ghosh-605a832a3/"><img src="https://img.shields.io/badge/connect_on-LinkedIn-00c9ff?style=for-the-badge&logo=linkedin&logoColor=00c9ff&labelColor=070b14"/></a>
-<a href="mailto:anurag.jx@gmail.com"><img src="https://img.shields.io/badge/drop_a-Mail-ff2e88?style=for-the-badge&logo=gmail&logoColor=ff2e88&labelColor=070b14"/></a>
-<a href="https://github.com/thejynxx?tab=repositories"><img src="https://img.shields.io/badge/browse-Repos-ffffff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=070b14"/></a>
 
 <br/><br/>
 
