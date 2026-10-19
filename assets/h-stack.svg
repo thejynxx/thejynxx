@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="70" viewBox="0 0 1000 70" role="img" aria-label="TECH STACK">
+<style>
+  .n { font: 700 14px 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace; fill: #ff2e88; letter-spacing: 2px; }
+  .t { font: 800 26px 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace; fill: #e8f9ff; letter-spacing: 4px; }
+  .h { font: 500 12px 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace; fill: #6b8ba3; letter-spacing: 1px; }
+  .line { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.6s cubic-bezier(.6,0,.2,1) .2s forwards; }
+  .node { animation: node 2.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+  .run { animation: run 3.5s linear 1.8s infinite; opacity: 0; }
+  .reveal { clip-path: inset(0 100% 0 0); animation: rev .9s steps(18) forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes rev { to { clip-path: inset(0 0 0 0); } }
+  @keyframes node { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.8); opacity: .3; } }
+  @keyframes run { 0% { transform: translateX(0); opacity: 0; } 5% { opacity: 1; } 95% { opacity: 1; } 100% { transform: translateX(640px); opacity: 0; } }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+  .reveal { clip-path: none !important; opacity: 1 !important; }
+}
+</style>
+<text x="6" y="30" class="n">02 //</text>
+<text x="66" y="31" class="t reveal">TECH STACK</text>
+<text x="994" y="30" class="h" text-anchor="end">tools of the trade</text>
+<line x1="6" y1="52" x2="994" y2="52" stroke="#00c9ff" stroke-opacity=".18" stroke-width="1"/>
+<line x1="6" y1="52" x2="994" y2="52" stroke="url(#gstack)" stroke-width="2" class="line"/>
+<defs><linearGradient id="gstack" x1="0" x2="1"><stop offset="0" stop-color="#ff2e88"/><stop offset=".25" stop-color="#00c9ff"/><stop offset="1" stop-color="#00c9ff" stop-opacity="0"/></linearGradient></defs>
+<circle cx="6" cy="52" r="4" fill="#ff2e88" class="node"/>
+<rect x="6" y="50" width="60" height="4" rx="2" fill="#00c9ff" class="run"/>
+</svg>

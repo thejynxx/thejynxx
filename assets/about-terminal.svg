@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="402" viewBox="0 0 1000 402" role="img" aria-label="About: AI and computer vision, systems and compilers, full-stack and cloud, core CS">
+<defs>
+  <linearGradient id="tb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#070b14"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#ff2e88"/><stop offset=".5" stop-color="#00c9ff"/><stop offset="1" stop-color="#ff2e88"/></linearGradient>
+</defs>
+<style>
+  text { font: 500 15px 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace; }
+  .ps { fill: #ff2e88; font-weight: 700; }
+  .cmd { fill: #ffffff; font-weight: 600; }
+  .out { fill: #9fdcff; }
+  .out2 { fill: #3dff9a; }
+  .k { fill: #00c9ff; font-weight: 600; }
+  .c { fill: #6b8ba3; }
+  .v { fill: #c9d6e2; }
+  .bar { font: 600 12px 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace; fill: #6b8ba3; letter-spacing: 1px; }
+  .ln { opacity: 0; animation: fade .25s ease-out forwards; }
+  .tp { clip-path: inset(0 100% 0 0); animation-name: type; animation-fill-mode: forwards; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  .edge { stroke-dasharray: 220 1400; animation: orbit 7s linear infinite; }
+  @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+  @keyframes type { to { clip-path: inset(0 0 0 0); } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes orbit { to { stroke-dashoffset: -1620; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .ln { opacity: 1; } .tp { clip-path: none; } }
+</style>
+<rect x="1" y="1" width="998" height="400" rx="14" fill="url(#tb)" stroke="#1b2a3d"/>
+<rect x="1" y="1" width="998" height="400" rx="14" fill="none" stroke="url(#edge)" stroke-width="2" class="edge" pathLength="1620"/>
+<path d="M1 44 H999" stroke="#1b2a3d"/>
+<circle cx="28" cy="23" r="6" fill="#ff5f57"/><circle cx="48" cy="23" r="6" fill="#febc2e"/><circle cx="68" cy="23" r="6" fill="#28c840"/>
+<text x="500.0" y="27" class="bar" text-anchor="middle">jynxx@core: ~ — zsh</text>
+<g class="ln" style="animation-delay:0.50s"><text x="36" y="74" class="ps">❯</text></g><text x="60" y="74" class="cmd tp" style="--n:6;animation-delay:0.65s;animation-duration:0.35s;animation-timing-function:steps(6)">whoami</text><text x="60" y="100" class="out ln" style="animation-delay:1.30s">anurag ghosh  ·  aka jynxx  ·  cs &amp; engineering</text><g class="ln" style="animation-delay:1.65s"><text x="36" y="139" class="ps">❯</text></g><text x="60" y="139" class="cmd tp" style="--n:15;animation-delay:1.80s;animation-duration:0.67s;animation-timing-function:steps(15)">cat ~/focus.yml</text><g class="ln" style="animation-delay:2.77s"><text x="60" y="165" class="k">ai_vision<tspan class="c">:</tspan></text><text x="200" y="165" class="v">neural models, deep learning pipelines, vision architectures</text></g><g class="ln" style="animation-delay:3.00s"><text x="60" y="191" class="k">systems<tspan class="c">:</tspan></text><text x="200" y="191" class="v">low-level programming, embedded (x86 / 8051), compiler design</text></g><g class="ln" style="animation-delay:3.22s"><text x="60" y="217" class="k">software<tspan class="c">:</tspan></text><text x="200" y="217" class="v">high-performance full-stack apps &amp; cloud-native services</text></g><g class="ln" style="animation-delay:3.44s"><text x="60" y="243" class="k">core_cs<tspan class="c">:</tspan></text><text x="200" y="243" class="v">algorithm optimization, operating systems, concurrency</text></g><g class="ln" style="animation-delay:3.66s"><text x="60" y="269" class="k">ethos<tspan class="c">:</tspan></text><text x="200" y="269" class="v">clean architecture, resilient by default</text></g><g class="ln" style="animation-delay:3.88s"><text x="36" y="308" class="ps">❯</text></g><text x="60" y="308" class="cmd tp" style="--n:20;animation-delay:4.03s;animation-duration:0.90s;animation-timing-function:steps(20)">git log --oneline -1</text><text x="60" y="334" class="out2 ln" style="animation-delay:5.23s">a1b2c3d  feat: continuously architecting &amp; shipping open source</text><g class="ln" style="animation-delay:5.58s"><text x="36" y="360" class="ps">❯</text><rect x="60" y="345" width="10" height="19" fill="#00c9ff" class="blink"/></g>
+</svg>
