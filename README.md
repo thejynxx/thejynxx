@@ -60,13 +60,13 @@
 
 <div align="center">
 
-<a href="https://github.com/thejynxx?achievement=quickdraw&tab=achievements"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/quickdraw-default.png" width="85" alt="Quickdraw" title="Quickdraw: Closed an issue or PR within 5 minutes"/></a>
-<a href="https://github.com/thejynxx?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/pull-shark-default.png" width="85" alt="Pull Shark" title="Pull Shark: Merged pull requests"/></a>
-<a href="https://github.com/thejynxx?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/pair-extraordinaire-default.png" width="85" alt="Pair Extraordinaire" title="Pair Extraordinaire: Co-authored a merged commit"/></a>
-<a href="https://github.com/thejynxx?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/yolo-default.png" width="85" alt="YOLO" title="YOLO: Merged PR without review"/></a>
-<a href="https://github.com/thejynxx?achievement=galaxy-brain&tab=achievements"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/galaxy-brain-default.png" width="85" alt="Galaxy Brain" title="Galaxy Brain: Accepted answer in GitHub Discussions"/></a>
-<a href="https://github.com/thejynxx?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/starstruck-default.png" width="85" alt="Starstruck" title="Starstruck: Created repository with 16+ stars"/></a>
-<a href="https://github.com/thejynxx?achievement=public-sponsor&tab=achievements"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/public-sponsor-default.png" width="85" alt="Public Sponsor" title="Public Sponsor: Sponsored open-source developers"/></a>
+<a href="https://github.com/thejynxx?achievement=quickdraw"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/quickdraw-default.png" width="85" alt="Quickdraw" title="Quickdraw: Closed an issue or PR within 5 minutes"/></a>
+<a href="https://github.com/thejynxx?achievement=pull-shark"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/pull-shark-default.png" width="85" alt="Pull Shark" title="Pull Shark: Merged pull requests"/></a>
+<a href="https://github.com/thejynxx?achievement=pair-extraordinaire"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/pair-extraordinaire-default.png" width="85" alt="Pair Extraordinaire" title="Pair Extraordinaire: Co-authored a merged commit"/></a>
+<a href="https://github.com/thejynxx?achievement=yolo"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/yolo-default.png" width="85" alt="YOLO" title="YOLO: Merged PR without review"/></a>
+<a href="https://github.com/thejynxx?achievement=galaxy-brain"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/galaxy-brain-default.png" width="85" alt="Galaxy Brain" title="Galaxy Brain: Accepted answer in GitHub Discussions"/></a>
+<a href="https://github.com/thejynxx?achievement=starstruck"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/starstruck-default.png" width="85" alt="Starstruck" title="Starstruck: Created repository with 16+ stars"/></a>
+<a href="https://github.com/thejynxx?achievement=public-sponsor"><img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/public-sponsor-default.png" width="85" alt="Public Sponsor" title="Public Sponsor: Sponsored open-source developers"/></a>
 
 <br/>
 <sub><b><code>QUICKDRAW</code></b> · <b><code>PULL SHARK</code></b> · <b><code>PAIR EXTRAORDINAIRE</code></b> · <b><code>YOLO</code></b> · <b><code>GALAXY BRAIN</code></b> · <b><code>STARSTRUCK</code></b> · <b><code>PUBLIC SPONSOR</code></b></sub>
@@ -78,7 +78,7 @@
 <img src="./assets/h-trophies.svg" width="100%" alt="05 // Trophies"/>
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=thejynxx&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&row=1&column=7"/>
+<img src="./assets/trophies.svg" width="100%" alt="Cyberpunk Profile Trophies — Commits, Polyglot, Repositories, Systems &amp; AI, Pull Shark, Telemetry"/>
 </div>
 
 <br/>

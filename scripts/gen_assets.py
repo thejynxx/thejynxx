@@ -362,6 +362,133 @@ def footer():
     write("footer.svg", svg)
 
 
+# ----------------------------------------------------------------------- trophies
+def trophies():
+    W, H = 1000, 195
+    card_w = 152
+    card_h = 168
+    gap = 12
+    start_x = 14
+    y = 14
+
+    items = [
+        {
+            "rank": "SSS",
+            "title": "COMMITS",
+            "desc": "ACTIVE SHIP",
+            "col": "#ffca28",
+            "path": """<path d="M-14 20 h28 v3 h-28 z M-5 14 h10 v6 h-10 z" fill="#ffca28"/>
+<path d="M-16 -12 h32 c0 16 -8 24 -16 24 s-16 -8 -16 -24 z" fill="none" stroke="#ffca28" stroke-width="2"/>
+<path d="M-16 -8 c-6 0 -10 4 -10 10 s4 10 10 10 M16 -8 c6 0 10 4 10 10 s-4 10 -10 10" fill="none" stroke="#ffca28" stroke-width="1.8"/>
+<polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" fill="#ffca28"/>"""
+        },
+        {
+            "rank": "SS",
+            "title": "POLYGLOT",
+            "desc": "7+ STACKS",
+            "col": CYAN,
+            "path": f"""<rect x="-18" y="-18" width="36" height="36" rx="6" transform="rotate(45)" fill="none" stroke="{CYAN}" stroke-width="2"/>
+<path d="M-8 -6 L-15 0 L-8 6 M8 -6 L15 0 L8 6 M-2 8 L2 -8" fill="none" stroke="{CYAN}" stroke-width="2" stroke-linecap="round"/>"""
+        },
+        {
+            "rank": "S",
+            "title": "REPOSITORIES",
+            "desc": "24+ ARCHIVES",
+            "col": MAGENTA,
+            "path": f"""<path d="M-18 -6 L0 -14 L18 -6 L0 2 Z" fill="none" stroke="{MAGENTA}" stroke-width="2"/>
+<path d="M-18 2 L0 10 L18 2 M-18 9 L0 17 L18 9" fill="none" stroke="{MAGENTA}" stroke-width="2"/>
+<circle cx="0" cy="-6" r="2.5" fill="{MAGENTA}"/>"""
+        },
+        {
+            "rank": "SSS",
+            "title": "SYSTEMS & AI",
+            "desc": "LOW-LEVEL & DL",
+            "col": "#ff7b00",
+            "path": """<rect x="-15" y="-15" width="30" height="30" rx="4" fill="none" stroke="#ff7b00" stroke-width="2"/>
+<rect x="-7" y="-7" width="14" height="14" rx="2" fill="#ff7b00" opacity=".35" stroke="#ff7b00" stroke-width="1.5"/>
+<path d="M-9 -19 v4 M0 -19 v4 M9 -19 v4 M-9 15 v4 M0 15 v4 M9 15 v4 M-19 -9 h4 M-19 0 h4 M-19 9 h4 M15 -9 h4 M15 0 h4 M15 9 h4" stroke="#ff7b00" stroke-width="1.8"/>"""
+        },
+        {
+            "rank": "A",
+            "title": "PULL SHARK",
+            "desc": "PR ARCHITECT",
+            "col": CYAN,
+            "path": f"""<circle cx="-10" cy="-11" r="3.5" fill="{CYAN}"/><circle cx="-10" cy="11" r="3.5" fill="{CYAN}"/><circle cx="10" cy="0" r="3.5" fill="{CYAN}"/>
+<path d="M-10 -7 v14 M-10 -5 c0 6 10 4 10 5" fill="none" stroke="{CYAN}" stroke-width="2" stroke-linecap="round"/>
+<path d="M1 -13 c3 6 13 8 13 8 c-3 0 -8 -3 -13 -8" fill="{CYAN}"/>"""
+        },
+        {
+            "rank": "S",
+            "title": "TELEMETRY",
+            "desc": "31D SIGNAL",
+            "col": "#3dff9a",
+            "path": """<circle cx="0" cy="0" r="20" fill="none" stroke="#3dff9a" stroke-width="1.5" stroke-dasharray="3 3" opacity=".5"/>
+<path d="M-15 0 h7 l4 -11 l5 22 l4 -15 l3 4 h7" fill="none" stroke="#3dff9a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>"""
+        },
+    ]
+
+    cards = []
+    for i, it in enumerate(items):
+        cx = start_x + i * (card_w + gap)
+        center_x = cx + card_w / 2
+        col = it["col"]
+        rank = it["rank"]
+        title = it["title"]
+        desc = it["desc"]
+        path = it["path"]
+        glow_id = f"tg{i}"
+        card = f"""
+  <!-- Card {i}: {title} -->
+  <g class="trophy-card" style="animation-delay: {i * 0.15:.2f}s">
+    <defs>
+      <radialGradient id="{glow_id}" cx="50%" cy="45%" r="50%">
+        <stop offset="0" stop-color="{col}" stop-opacity=".22"/>
+        <stop offset="1" stop-color="{col}" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect x="{cx}" y="{y}" width="{card_w}" height="{card_h}" rx="12" fill="url(#cardBg)" stroke="#17263c" stroke-width="1"/>
+    <!-- Glow aura -->
+    <circle cx="{center_x}" cy="{y + 68}" r="45" fill="url(#{glow_id})"/>
+    <!-- Rank Pill -->
+    <rect x="{cx + card_w - 46}" y="{y + 10}" width="36" height="17" rx="8.5" fill="{col}" fill-opacity=".12" stroke="{col}" stroke-opacity=".5" stroke-width="1"/>
+    <text x="{cx + card_w - 28}" y="{y + 22}" fill="{col}" font-family="{MONO}" font-size="9" font-weight="800" text-anchor="middle">{rank}</text>
+    <!-- Star Label -->
+    <text x="{cx + 12}" y="{y + 22}" fill="{col}" font-family="{MONO}" font-size="10" font-weight="700" letter-spacing="1">★ RANK</text>
+    <!-- Emblem -->
+    <g transform="translate({center_x}, {y + 68})" class="icon-pulse">
+      {path}
+    </g>
+    <!-- Title -->
+    <text x="{center_x}" y="{y + 126}" fill="#f0f6fc" font-family="{MONO}" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">{title}</text>
+    <!-- Subtitle / Stat -->
+    <text x="{center_x}" y="{y + 144}" fill="#6b8ba3" font-family="{MONO}" font-size="9" font-weight="600" letter-spacing="0.8" text-anchor="middle">{desc}</text>
+    <!-- Bottom accent line -->
+    <line x1="{cx + 25}" y1="{y + card_h - 1}" x2="{cx + card_w - 25}" y2="{y + card_h - 1}" stroke="{col}" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"/>
+  </g>"""
+        cards.append(card)
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Cyberpunk Profile Trophies">
+<defs>
+  <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0a1220"/>
+    <stop offset="1" stop-color="#05070e"/>
+  </linearGradient>
+</defs>
+<style>
+  .trophy-card {{ transform-origin: center; }}
+  .icon-pulse {{ animation: icPulse 3s ease-in-out infinite; transform-origin: center; }}
+  @keyframes icPulse {{
+    0%, 100% {{ transform: scale(1); }}
+    50% {{ transform: scale(1.06); }}
+  }}
+  {REDUCED}
+</style>
+{''.join(cards)}
+</svg>"""
+    write("trophies.svg", svg)
+
+
 if __name__ == "__main__":
     hero()
     terminal()
@@ -375,5 +502,6 @@ if __name__ == "__main__":
         ("connect", "07", "CONNECT", "open a channel"),
     ]:
         header(*args)
+    trophies()
     footer()
 

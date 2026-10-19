@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="195" viewBox="0 0 1000 195" role="img" aria-label="Cyberpunk Profile Trophies">
+<defs>
+  <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0a1220"/>
+    <stop offset="1" stop-color="#05070e"/>
+  </linearGradient>
+</defs>
+<style>
+  .trophy-card { transform-origin: center; }
+  .icon-pulse { animation: icPulse 3s ease-in-out infinite; transform-origin: center; }
+  @keyframes icPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.06); }
+  }
+  
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+  .reveal { clip-path: none !important; opacity: 1 !important; }
+}
+</style>
+
+  <!-- Card 0: COMMITS -->
+  <g class="trophy-card" style="animation-delay: 0.00s">
+    <defs>
+      <radialGradient id="tg0" cx="50%" cy="45%" r="50%">
+        <stop offset="0" stop-color="#ffca28" stop-opacity=".22"/>
+        <stop offset="1" stop-color="#ffca28" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect x="14" y="14" width="152" height="168" rx="12" fill="url(#cardBg)" stroke="#17263c" stroke-width="1"/>
+    <!-- Glow aura -->
+    <circle cx="90.0" cy="82" r="45" fill="url(#tg0)"/>
+    <!-- Rank Pill -->
+    <rect x="120" y="24" width="36" height="17" rx="8.5" fill="#ffca28" fill-opacity=".12" stroke="#ffca28" stroke-opacity=".5" stroke-width="1"/>
+    <text x="138" y="36" fill="#ffca28" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="800" text-anchor="middle">SSS</text>
+    <!-- Star Label -->
+    <text x="26" y="36" fill="#ffca28" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="10" font-weight="700" letter-spacing="1">★ RANK</text>
+    <!-- Emblem -->
+    <g transform="translate(90.0, 82)" class="icon-pulse">
+      <path d="M-14 20 h28 v3 h-28 z M-5 14 h10 v6 h-10 z" fill="#ffca28"/>
+<path d="M-16 -12 h32 c0 16 -8 24 -16 24 s-16 -8 -16 -24 z" fill="none" stroke="#ffca28" stroke-width="2"/>
+<path d="M-16 -8 c-6 0 -10 4 -10 10 s4 10 10 10 M16 -8 c6 0 10 4 10 10 s-4 10 -10 10" fill="none" stroke="#ffca28" stroke-width="1.8"/>
+<polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" fill="#ffca28"/>
+    </g>
+    <!-- Title -->
+    <text x="90.0" y="140" fill="#f0f6fc" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">COMMITS</text>
+    <!-- Subtitle / Stat -->
+    <text x="90.0" y="158" fill="#6b8ba3" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="600" letter-spacing="0.8" text-anchor="middle">ACTIVE SHIP</text>
+    <!-- Bottom accent line -->
+    <line x1="39" y1="181" x2="141" y2="181" stroke="#ffca28" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"/>
+  </g>
+  <!-- Card 1: POLYGLOT -->
+  <g class="trophy-card" style="animation-delay: 0.15s">
+    <defs>
+      <radialGradient id="tg1" cx="50%" cy="45%" r="50%">
+        <stop offset="0" stop-color="#00c9ff" stop-opacity=".22"/>
+        <stop offset="1" stop-color="#00c9ff" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect x="178" y="14" width="152" height="168" rx="12" fill="url(#cardBg)" stroke="#17263c" stroke-width="1"/>
+    <!-- Glow aura -->
+    <circle cx="254.0" cy="82" r="45" fill="url(#tg1)"/>
+    <!-- Rank Pill -->
+    <rect x="284" y="24" width="36" height="17" rx="8.5" fill="#00c9ff" fill-opacity=".12" stroke="#00c9ff" stroke-opacity=".5" stroke-width="1"/>
+    <text x="302" y="36" fill="#00c9ff" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="800" text-anchor="middle">SS</text>
+    <!-- Star Label -->
+    <text x="190" y="36" fill="#00c9ff" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="10" font-weight="700" letter-spacing="1">★ RANK</text>
+    <!-- Emblem -->
+    <g transform="translate(254.0, 82)" class="icon-pulse">
+      <rect x="-18" y="-18" width="36" height="36" rx="6" transform="rotate(45)" fill="none" stroke="#00c9ff" stroke-width="2"/>
+<path d="M-8 -6 L-15 0 L-8 6 M8 -6 L15 0 L8 6 M-2 8 L2 -8" fill="none" stroke="#00c9ff" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- Title -->
+    <text x="254.0" y="140" fill="#f0f6fc" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">POLYGLOT</text>
+    <!-- Subtitle / Stat -->
+    <text x="254.0" y="158" fill="#6b8ba3" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="600" letter-spacing="0.8" text-anchor="middle">7+ STACKS</text>
+    <!-- Bottom accent line -->
+    <line x1="203" y1="181" x2="305" y2="181" stroke="#00c9ff" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"/>
+  </g>
+  <!-- Card 2: REPOSITORIES -->
+  <g class="trophy-card" style="animation-delay: 0.30s">
+    <defs>
+      <radialGradient id="tg2" cx="50%" cy="45%" r="50%">
+        <stop offset="0" stop-color="#ff2e88" stop-opacity=".22"/>
+        <stop offset="1" stop-color="#ff2e88" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect x="342" y="14" width="152" height="168" rx="12" fill="url(#cardBg)" stroke="#17263c" stroke-width="1"/>
+    <!-- Glow aura -->
+    <circle cx="418.0" cy="82" r="45" fill="url(#tg2)"/>
+    <!-- Rank Pill -->
+    <rect x="448" y="24" width="36" height="17" rx="8.5" fill="#ff2e88" fill-opacity=".12" stroke="#ff2e88" stroke-opacity=".5" stroke-width="1"/>
+    <text x="466" y="36" fill="#ff2e88" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="800" text-anchor="middle">S</text>
+    <!-- Star Label -->
+    <text x="354" y="36" fill="#ff2e88" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="10" font-weight="700" letter-spacing="1">★ RANK</text>
+    <!-- Emblem -->
+    <g transform="translate(418.0, 82)" class="icon-pulse">
+      <path d="M-18 -6 L0 -14 L18 -6 L0 2 Z" fill="none" stroke="#ff2e88" stroke-width="2"/>
+<path d="M-18 2 L0 10 L18 2 M-18 9 L0 17 L18 9" fill="none" stroke="#ff2e88" stroke-width="2"/>
+<circle cx="0" cy="-6" r="2.5" fill="#ff2e88"/>
+    </g>
+    <!-- Title -->
+    <text x="418.0" y="140" fill="#f0f6fc" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">REPOSITORIES</text>
+    <!-- Subtitle / Stat -->
+    <text x="418.0" y="158" fill="#6b8ba3" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="600" letter-spacing="0.8" text-anchor="middle">24+ ARCHIVES</text>
+    <!-- Bottom accent line -->
+    <line x1="367" y1="181" x2="469" y2="181" stroke="#ff2e88" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"/>
+  </g>
+  <!-- Card 3: SYSTEMS & AI -->
+  <g class="trophy-card" style="animation-delay: 0.45s">
+    <defs>
+      <radialGradient id="tg3" cx="50%" cy="45%" r="50%">
+        <stop offset="0" stop-color="#ff7b00" stop-opacity=".22"/>
+        <stop offset="1" stop-color="#ff7b00" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect x="506" y="14" width="152" height="168" rx="12" fill="url(#cardBg)" stroke="#17263c" stroke-width="1"/>
+    <!-- Glow aura -->
+    <circle cx="582.0" cy="82" r="45" fill="url(#tg3)"/>
+    <!-- Rank Pill -->
+    <rect x="612" y="24" width="36" height="17" rx="8.5" fill="#ff7b00" fill-opacity=".12" stroke="#ff7b00" stroke-opacity=".5" stroke-width="1"/>
+    <text x="630" y="36" fill="#ff7b00" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="800" text-anchor="middle">SSS</text>
+    <!-- Star Label -->
+    <text x="518" y="36" fill="#ff7b00" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="10" font-weight="700" letter-spacing="1">★ RANK</text>
+    <!-- Emblem -->
+    <g transform="translate(582.0, 82)" class="icon-pulse">
+      <rect x="-15" y="-15" width="30" height="30" rx="4" fill="none" stroke="#ff7b00" stroke-width="2"/>
+<rect x="-7" y="-7" width="14" height="14" rx="2" fill="#ff7b00" opacity=".35" stroke="#ff7b00" stroke-width="1.5"/>
+<path d="M-9 -19 v4 M0 -19 v4 M9 -19 v4 M-9 15 v4 M0 15 v4 M9 15 v4 M-19 -9 h4 M-19 0 h4 M-19 9 h4 M15 -9 h4 M15 0 h4 M15 9 h4" stroke="#ff7b00" stroke-width="1.8"/>
+    </g>
+    <!-- Title -->
+    <text x="582.0" y="140" fill="#f0f6fc" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">SYSTEMS & AI</text>
+    <!-- Subtitle / Stat -->
+    <text x="582.0" y="158" fill="#6b8ba3" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="600" letter-spacing="0.8" text-anchor="middle">LOW-LEVEL & DL</text>
+    <!-- Bottom accent line -->
+    <line x1="531" y1="181" x2="633" y2="181" stroke="#ff7b00" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"/>
+  </g>
+  <!-- Card 4: PULL SHARK -->
+  <g class="trophy-card" style="animation-delay: 0.60s">
+    <defs>
+      <radialGradient id="tg4" cx="50%" cy="45%" r="50%">
+        <stop offset="0" stop-color="#00c9ff" stop-opacity=".22"/>
+        <stop offset="1" stop-color="#00c9ff" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect x="670" y="14" width="152" height="168" rx="12" fill="url(#cardBg)" stroke="#17263c" stroke-width="1"/>
+    <!-- Glow aura -->
+    <circle cx="746.0" cy="82" r="45" fill="url(#tg4)"/>
+    <!-- Rank Pill -->
+    <rect x="776" y="24" width="36" height="17" rx="8.5" fill="#00c9ff" fill-opacity=".12" stroke="#00c9ff" stroke-opacity=".5" stroke-width="1"/>
+    <text x="794" y="36" fill="#00c9ff" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="800" text-anchor="middle">A</text>
+    <!-- Star Label -->
+    <text x="682" y="36" fill="#00c9ff" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="10" font-weight="700" letter-spacing="1">★ RANK</text>
+    <!-- Emblem -->
+    <g transform="translate(746.0, 82)" class="icon-pulse">
+      <circle cx="-10" cy="-11" r="3.5" fill="#00c9ff"/><circle cx="-10" cy="11" r="3.5" fill="#00c9ff"/><circle cx="10" cy="0" r="3.5" fill="#00c9ff"/>
+<path d="M-10 -7 v14 M-10 -5 c0 6 10 4 10 5" fill="none" stroke="#00c9ff" stroke-width="2" stroke-linecap="round"/>
+<path d="M1 -13 c3 6 13 8 13 8 c-3 0 -8 -3 -13 -8" fill="#00c9ff"/>
+    </g>
+    <!-- Title -->
+    <text x="746.0" y="140" fill="#f0f6fc" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">PULL SHARK</text>
+    <!-- Subtitle / Stat -->
+    <text x="746.0" y="158" fill="#6b8ba3" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="600" letter-spacing="0.8" text-anchor="middle">PR ARCHITECT</text>
+    <!-- Bottom accent line -->
+    <line x1="695" y1="181" x2="797" y2="181" stroke="#00c9ff" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"/>
+  </g>
+  <!-- Card 5: TELEMETRY -->
+  <g class="trophy-card" style="animation-delay: 0.75s">
+    <defs>
+      <radialGradient id="tg5" cx="50%" cy="45%" r="50%">
+        <stop offset="0" stop-color="#3dff9a" stop-opacity=".22"/>
+        <stop offset="1" stop-color="#3dff9a" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background -->
+    <rect x="834" y="14" width="152" height="168" rx="12" fill="url(#cardBg)" stroke="#17263c" stroke-width="1"/>
+    <!-- Glow aura -->
+    <circle cx="910.0" cy="82" r="45" fill="url(#tg5)"/>
+    <!-- Rank Pill -->
+    <rect x="940" y="24" width="36" height="17" rx="8.5" fill="#3dff9a" fill-opacity=".12" stroke="#3dff9a" stroke-opacity=".5" stroke-width="1"/>
+    <text x="958" y="36" fill="#3dff9a" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="800" text-anchor="middle">S</text>
+    <!-- Star Label -->
+    <text x="846" y="36" fill="#3dff9a" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="10" font-weight="700" letter-spacing="1">★ RANK</text>
+    <!-- Emblem -->
+    <g transform="translate(910.0, 82)" class="icon-pulse">
+      <circle cx="0" cy="0" r="20" fill="none" stroke="#3dff9a" stroke-width="1.5" stroke-dasharray="3 3" opacity=".5"/>
+<path d="M-15 0 h7 l4 -11 l5 22 l4 -15 l3 4 h7" fill="none" stroke="#3dff9a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- Title -->
+    <text x="910.0" y="140" fill="#f0f6fc" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">TELEMETRY</text>
+    <!-- Subtitle / Stat -->
+    <text x="910.0" y="158" fill="#6b8ba3" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,Menlo,monospace" font-size="9" font-weight="600" letter-spacing="0.8" text-anchor="middle">31D SIGNAL</text>
+    <!-- Bottom accent line -->
+    <line x1="859" y1="181" x2="961" y2="181" stroke="#3dff9a" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"/>
+  </g>
+</svg>
