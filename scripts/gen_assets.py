@@ -369,9 +369,11 @@ if __name__ == "__main__":
         ("about", "01", "ABOUT", "~/whoami"),
         ("stack", "02", "TECH STACK", "tools of the trade"),
         ("stats", "03", "TELEMETRY", "live from github"),
-        ("trophies", "04", "TROPHIES", "achievement.log"),
-        ("snake", "05", "CONTRIBUTIONS", "the snake eats my commits"),
-        ("connect", "06", "CONNECT", "open a channel"),
+        ("achievements", "04", "ACHIEVEMENTS", "milestones unlocked"),
+        ("trophies", "05", "TROPHIES", "achievement.log"),
+        ("snake", "06", "CONTRIBUTIONS", "the snake eats my commits"),
+        ("connect", "07", "CONNECT", "open a channel"),
     ]:
         header(*args)
     footer()
+

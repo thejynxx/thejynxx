@@ -17,7 +17,7 @@
   .reveal { clip-path: none !important; opacity: 1 !important; }
 }
 </style>
-<text x="6" y="30" class="n">05 //</text>
+<text x="6" y="30" class="n">06 //</text>
 <text x="66" y="31" class="t reveal">CONTRIBUTIONS</text>
 <text x="994" y="30" class="h" text-anchor="end">the snake eats my commits</text>
 <line x1="6" y1="52" x2="994" y2="52" stroke="#00c9ff" stroke-opacity=".18" stroke-width="1"/>
