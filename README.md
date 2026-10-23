@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="JYNXX — Computer Science & Engineering | AI & Systems Architecture"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2563eb&height=200&section=header&text=Anurag%20Ghosh&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%2FML%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Systems%20Enthusiast&descSize=18&descAlignY=58&descColor=ffffff&animation=fadeIn" width="100%" alt="Anurag Ghosh — AI/ML Engineer | Full Stack Developer | Systems Enthusiast"/>
+
+<a href="https://github.com/thejynxx"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=B.Tech+CSE+%40+VIT+Chennai;Building+AI-Powered+%26+Scalable+Systems;From+Algorithms+to+Production" alt="Typing SVG"/></a>
 
 <br/>
 
